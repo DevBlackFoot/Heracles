@@ -1,0 +1,56 @@
+﻿[
+  {
+    "ID": 1,
+    "ObjectID": 10201,
+    "GameObjectName": "Pot1 (0)",
+    "Transform": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "NONE",
+    "SphereCollider": 0.0
+  },
+  {
+    "ID": 2,
+    "ObjectID": 10302,
+    "GameObjectName": "WeaponTreasureBox1 (0)",
+    "Transform": [
+      -10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "NONE",
+    "SphereCollider": 0.0
+  },
+  {
+    "ID": 3,
+    "ObjectID": 20201,
+    "GameObjectName": "Altar (0)",
+    "Transform": [
+      10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "NONE",
+    "SphereCollider": 0.0
+  }
+]

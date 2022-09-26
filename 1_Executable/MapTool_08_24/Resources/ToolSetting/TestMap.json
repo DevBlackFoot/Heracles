@@ -1,0 +1,50 @@
+﻿[
+  {
+    "Id": 5,
+    "ObjectId": 10101,
+    "GameObjectName": "Kyaru (1)",
+    "Transform": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      90.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "Id": 6,
+    "ObjectId": 10116,
+    "GameObjectName": "WallA_Doorway01 (1)",
+    "Transform": [
+      0.0,
+      0.0,
+      0.0,
+      -90.0,
+      0.0,
+      0.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "Id": 10,
+    "ObjectId": 10108,
+    "GameObjectName": "CeilingA_6M (0)",
+    "Transform": [
+      -20.0,
+      0.0,
+      0.0,
+      90.0,
+      0.0,
+      0.0,
+      0.1,
+      0.1,
+      0.1
+    ]
+  }
+]

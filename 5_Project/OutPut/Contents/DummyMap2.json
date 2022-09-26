@@ -1,0 +1,333 @@
+﻿[
+  {
+    "ID": 0,
+    "ObjectID": 20202,
+    "GameObjectName": "Pillar(0)",
+    "GameObjectTag": "Obstacle",
+    "Transform": [
+      25.0,
+      0.0,
+      25.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "BOX",
+    "BoxCollider": [ 5.0, 5.0, 5.0 ]
+  },
+  {
+    "ID": 1,
+    "ObjectID": 20101,
+    "GameObjectName": "Player",
+    "GameObjectTag": "Player",
+    "Transform": [
+      0.0,
+      0.0,
+      -10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 2,
+    "ObjectID": 20102,
+    "GameObjectName": "Weapon",
+    "GameObjectTag": "Weapon",
+    "Transform": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "BOX",
+    "BoxCollider": [ 5.0, 10.0, 10.0 ]
+  },
+  {
+    "ID": 3,
+    "ObjectID": 20201,
+    "GameObjectName": "Altar(0)",
+    "GameObjectTag": "Altar",
+    "Transform": [
+      -10.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "SPHERE",
+    "BoxCollider": [ 1.0 ]
+  },
+  {
+    "ID": 4,
+    "ObjectID": 20301,
+    "GameObjectName": "Monster(0)",
+    "GameObjectTag": "Monster",
+    "Transform": [
+      50.0,
+      0.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "Collider": "SPHERE",
+    "BoxCollider": [ 1.0 ]
+  },
+  {
+    "ID": 5,
+    "ObjectID": 20302,
+    "GameObjectName": "MonsterAttack",
+    "GameObjectTag": "MonsterAttack",
+    "Transform": [
+      0.7,
+      1.0,
+      -0.4,
+      0.0,
+      0.0,
+      0.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "Collider": "BOX",
+    "BoxCollider": [ 2.0, 2.0, 6.0 ]
+  },
+  {
+    "ID": 6,
+    "ObjectID": 20303,
+    "GameObjectName": "Boss",
+    "GameObjectTag": "Boss",
+    "Transform": [
+      -50.0,
+      0.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "Collider": "BOX",
+    "BoxCollider": [ 15.0, 15.0, 15.0 ]
+  },
+  {
+    "ID": 7,
+    "ObjectID": 20304,
+    "GameObjectName": "BossAttack",
+    "GameObjectTag": "BossAttack",
+    "Transform": [
+      0.0,
+      0.0,
+      40.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "BOX",
+    "BoxCollider": [ 7.0, 7.0, 7.0 ]
+  },
+  {
+    "ID": 8,
+    "ObjectID": 20401,
+    "GameObjectName": "MainCamera",
+    "GameObjectTag": "Camera",
+    "Transform": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 9,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(0)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 10,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(1)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      0.0,
+      -1.0,
+      64.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 11,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(2)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      0.0,
+      -1.0,
+      -64.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 12,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(3)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      64.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 13,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(4)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      64.0,
+      -1.0,
+      64.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 14,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(5)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      64.0,
+      -1.0,
+      -64.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 15,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(6)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      -64.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 16,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(7)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      -64.0,
+      -1.0,
+      64.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 17,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(8)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      -64.0,
+      -1.0,
+      -64.0,
+      0.0,
+      0.0,
+      0.0,
+      4.0,
+      1.0,
+      4.0
+    ],
+    "Collider": "NONE"
+  }
+]

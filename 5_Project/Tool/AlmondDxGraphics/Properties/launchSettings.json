@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AlmondDxGraphics": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}

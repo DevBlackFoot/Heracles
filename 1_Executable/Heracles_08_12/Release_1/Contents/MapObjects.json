@@ -1,0 +1,95 @@
+﻿[
+  {
+    "ID": 10101,
+    "ObjectName": "Pillar",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Pillar",
+      "Resources/Model/Pillar.ase"
+    ]
+  },
+  {
+    "ID": 10102,
+    "ObjectName": "Wall",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Wall", "Resources/Model/Wall.ase" ]
+  },
+  {
+    "ID": 10103,
+    "ObjectName": "Floor",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Floor",
+      "Resources/Model/Floor.ase"
+    ]
+  },
+  {
+    "ID": 10201,
+    "ObjectName": "Pot1",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Pot1", "Resources/Model/Pot1.ase" ]
+  },
+  {
+    "ID": 10202,
+    "ObjectName": "Pot2",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Pot2", "Resources/Model/Pot2.ase" ]
+  },
+  {
+    "ID": 10203,
+    "ObjectName": "BrokenPot",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "BrokenPot",
+      "Resources/Model/Pot_Broken.ase"
+    ]
+  },
+  {
+    "ID": 10301,
+    "ObjectName": "HPTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "HPBox",
+      "Resources/Model/HPTreasureBox_OpenAnimation.ase"
+    ],
+    "Animation": [
+      "BoxOpen",
+      "Resources/Model/HPTreasureBox_OpenAnimation.ase"
+    ]
+  },
+  {
+    "ID": 10302,
+    "ObjectName": "WeaponTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "WeaponBox",
+      "Resources/Model/WeaponTreasureBox_OpenAnimation.ase"
+    ],
+    "Animation": [
+      "BoxOpen",
+      "Resources/Model/WeaponTreasureBox_OpenAnimation.ase"
+    ]
+  },
+  {
+    "ID": 10303,
+    "ObjectName": "MemoryTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "MemoryBox",
+      "Resources/Model/MemoryTreasureBox_OpenAnimation.ase"
+    ],
+    "Animation": [
+      "BoxOpen",
+      "Resources/Model/MemoryTreasureBox_OpenAnimation.ase"
+    ]
+  }
+]

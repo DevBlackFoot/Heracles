@@ -1,0 +1,164 @@
+﻿[
+  {
+    "ID": 0,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(0)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      0.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 1,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(1)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      100.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 2,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(2)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      0.0,
+      -1.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 3,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(3)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      100.0,
+      -1.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 4,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(4)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      100.0,
+      -1.0,
+      -100.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 5,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(5)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      0.0,
+      -1.0,
+      -100.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 6,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(6)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      -100.0,
+      -1.0,
+      -100.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 7,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(7)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      -100.0,
+      -1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  },
+  {
+    "ID": 8,
+    "ObjectID": 10101,
+    "GameObjectName": "Floor(8)",
+    "GameObjectTag": "Floor",
+    "Transform": [
+      -100.0,
+      -1.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0,
+      1.0,
+      100.0
+    ],
+    "Collider": "NONE"
+  }
+]

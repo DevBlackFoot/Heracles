@@ -1,0 +1,12 @@
+﻿{
+  "Path_SceneChapterTable": ".//contents//SceneChapterTable.json",
+  "Path_SceneTable": ".//contents//SceneTable.json",
+  "Path_SceneObjectTable": ".//contents//SceneObjectTable.json",
+  "Path_CharacterTable": ".//contents//CharacterTable.json",
+  "Path_SpriteSheetsTable": ".//contents//SpriteSheetsTable.json",
+  "Path_SpriteTable": ".//contents//SpritesTable.json",
+  "Path_SpriteAnimationClipTable": ".//contents//SpriteAnimationClipTable.json",
+  "Path_SoundTable": ".//contents//SoundTable.json",
+  "Path_StoryTable": ".//contents//StoryTable.json",
+  "InitChapterID": 900
+}

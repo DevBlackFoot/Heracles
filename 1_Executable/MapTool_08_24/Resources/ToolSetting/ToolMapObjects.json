@@ -1,0 +1,146 @@
+﻿[
+  {
+    "Id": 10101,
+    "ObjectName": "Kyaru",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 3.5,
+    "Path": "Resources/Model/Character/Kyaru/kyaru.obj",
+    "TextureDirectory": "Resources/Model/Character/Kyaru/Textures"
+  },
+  {
+    "Id": 10102,
+    "ObjectName": "PaperBox",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 1.0,
+    "Path": "Resources/Model/Building/PaperBox_01.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10103,
+    "ObjectName": "BeamA_3M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 3.0,
+    "Path": "Resources/Model/Building/SM_BeamA_3M.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10104,
+    "ObjectName": "BeamA_6M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 6.0,
+    "Path": "Resources/Model/Building/SM_BeamA_6M.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10105,
+    "ObjectName": "BeamA_9M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 9.0,
+    "Path": "Resources/Model/Building/SM_BeamA_9M.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10106,
+    "ObjectName": "Bracket_01",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 6.0,
+    "Path": "Resources/Model/Building/SM_Bracket_01.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10107,
+    "ObjectName": "CeilingA_3M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 3.0,
+    "Path": "Resources/Model/Building/SM_CeilingA_3M.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10108,
+    "ObjectName": "CeilingA_6M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 3.0,
+    "Path": "Resources/Model/Building/SM_CeilingA_6M.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10109,
+    "ObjectName": "CeilingA_6X6",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 6.0,
+    "Path": "Resources/Model/Building/SM_CeilingA_6X6.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10110,
+    "ObjectName": "Door_01",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 2.0,
+    "Path": "Resources/Model/Building/SM_Door_01.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10111,
+    "ObjectName": "Floor_01_3M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 3.0,
+    "Path": "Resources/Model/Building/SM_Floor_01.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10112,
+    "ObjectName": "Floor_01_6X6",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 6.0,
+    "Path": "Resources/Model/Building/SM_Floor_6X6.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10113,
+    "ObjectName": "FrameA_01",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 1.0,
+    "Path": "Resources/Model/Building/SM_FrameA_01.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10114,
+    "ObjectName": "PillarA_3M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 2.0,
+    "Path": "Resources/Model/Building/SM_PillarA_3M.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10115,
+    "ObjectName": "WallA_3M",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 3.0,
+    "Path": "Resources/Model/Building/SM_WallA_3M.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  },
+  {
+    "Id": 10116,
+    "ObjectName": "WallA_Doorway01",
+    "HasAnim": false,
+    "Shader": "Default",
+    "WidthBlock": 3.0,
+    "Path": "Resources/Model/Building/SM_WallA_Doorway01.fbx",
+    "TextureDirectory": "Resources/Model/PublicTextures"
+  }
+]

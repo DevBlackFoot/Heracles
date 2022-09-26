@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{eae96af9-dd30-4175-926e-e12c5f03b5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{55e3a785-2fcd-4f06-acc7-4bae286bb72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientMain">
+      <UniqueIdentifier>{61a833df-da79-4bee-a0f4-085c8d75f54e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\DemoScene">
+      <UniqueIdentifier>{54b96b3b-664f-4656-8893-b3433fb5fe15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{96f6a759-a92f-4321-ac32-f67b1bd07a0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pch">
+      <UniqueIdentifier>{b1c015fe-b2ec-42ec-a303-3107f77aa65f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents">
+      <UniqueIdentifier>{80169cc5-9fe3-49f5-9acc-b9e0603cee67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Temp">
+      <UniqueIdentifier>{88818d49-5516-493b-9ba0-3f3c06dd2142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player">
+      <UniqueIdentifier>{3f3632ab-01d2-4e5a-8f8e-b5b2f7fd0bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player\PlayerStateMachine">
+      <UniqueIdentifier>{b7af6df8-e9b0-4b0b-9ae1-8755bed64bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player\PlayerController">
+      <UniqueIdentifier>{c8a43a0f-dd1a-4b7e-a2c9-700607dedb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player\PlayerState">
+      <UniqueIdentifier>{79648dcd-fc86-4efc-bc30-dcea0cea4cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player\PlayerCollider">
+      <UniqueIdentifier>{4a2b9251-d748-4695-b985-ff2d64d7efc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Monster">
+      <UniqueIdentifier>{eb8f57a3-0f77-49c1-9b96-441f1dcc4dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Monster\MonsterState">
+      <UniqueIdentifier>{3b749342-a6b9-408d-928f-0365f1706b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Weapon">
+      <UniqueIdentifier>{0bd283da-1ef7-4e0e-a63b-3ecf8861579b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Weapon\WeaponBase">
+      <UniqueIdentifier>{f4238277-7dd7-4cc0-a04a-dec2b6f0e6f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Weapon\DefaultWeapon">
+      <UniqueIdentifier>{f3582031-8774-4f32-9024-544f0f4f4f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager\GameState">
+      <UniqueIdentifier>{5439e16b-c06a-4386-9e5b-7d80124c8f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player\PlayerCamera">
+      <UniqueIdentifier>{d28db837-d9ae-4097-9166-38ae6380f39f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Altar">
+      <UniqueIdentifier>{d40f64ba-5246-418e-bdcc-2ddde194cb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Altar\State">
+      <UniqueIdentifier>{004b759f-414d-4853-83e7-b7c376a8e526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Altar\Collider">
+      <UniqueIdentifier>{726c1596-49e7-493b-94ba-e5f9c3272963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Altar\MonoBehaviour">
+      <UniqueIdentifier>{de080c41-850a-43c5-8bc5-061ea0e1e035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Trap">
+      <UniqueIdentifier>{8d4754fe-a279-4c6d-87fe-fe91f5522e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\TestScene">
+      <UniqueIdentifier>{0ad59541-1b71-469e-b37b-592aa0927871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Obstacle">
+      <UniqueIdentifier>{c27e942f-6a52-4129-906f-3c33cf3d9f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MainMenu">
+      <UniqueIdentifier>{4b94dece-8470-4a7e-a8b7-ea65cc3ca98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\UI">
+      <UniqueIdentifier>{41289d70-27fc-403a-b304-ec3eb489bee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Item">
+      <UniqueIdentifier>{e8551614-5d9c-4c46-884e-efc0c9a3ab48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Item\Inventory">
+      <UniqueIdentifier>{8bc0a853-2baa-4f4d-b59a-becdbe85ec6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Debug">
+      <UniqueIdentifier>{6a8163c1-d3c2-41f0-81f8-250f120f7a90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\GameObjectTemplate">
+      <UniqueIdentifier>{f8ca4071-e438-4f65-b41c-f3d9c4489c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Monster\MonsterMonoBehaviour">
+      <UniqueIdentifier>{7edee37c-4ed2-42a1-a479-6ed06f1d6f98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player\PlayerMonoBehaviour">
+      <UniqueIdentifier>{c7153117-4f6f-4f78-a7e0-72ea465e099c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\SceneController">
+      <UniqueIdentifier>{73412eeb-9e63-476c-8a12-8dd339bd48d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Boss">
+      <UniqueIdentifier>{4b6f1f75-a8db-45dd-9d51-68eb123912ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{df5b7be8-bf0b-4cb6-a057-58d3e3e6d052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\BehaviourTree">
+      <UniqueIdentifier>{7d0c8a98-ea93-46af-9ad6-4bc6e4663353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Boss\BossTree">
+      <UniqueIdentifier>{7b1054b9-e35c-4b6b-98b7-047c456f90c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Boss\BossMonoBehaviour">
+      <UniqueIdentifier>{d1fa370c-5950-4ee4-ab1e-c615c3b540e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Boss\TestBossController">
+      <UniqueIdentifier>{2989ae31-005d-44a4-9a48-c5e61c7667a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Monster\MonsterAttack">
+      <UniqueIdentifier>{efa41cbc-2dc8-4ef5-93d8-f7914e645919}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Weapon\WeaponMonoBehaviour">
+      <UniqueIdentifier>{785ed6d7-7238-4e44-a919-024e9a68329f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Boss\BossAttackMonoBehaviour">
+      <UniqueIdentifier>{d8005b6e-40fb-454d-b518-d5069e96bd28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\JsonObjTemplate">
+      <UniqueIdentifier>{56e9f9be-0724-46ae-8990-04244f4744c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\GameEngineTestScene">
+      <UniqueIdentifier>{a320d796-dee3-4e4e-8a6d-6ec82ed1e492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Entrance">
+      <UniqueIdentifier>{cf450f2c-3562-436a-a6b4-7d7bde5dc57d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\FirstScene">
+      <UniqueIdentifier>{4e37d57d-56f7-45c0-9afd-c120aaf0a474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\StartScene">
+      <UniqueIdentifier>{14b82316-30cf-4da4-90b4-3b471b197d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapA">
+      <UniqueIdentifier>{d65c2a09-8c9d-4695-bc49-d5863fefceb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapB">
+      <UniqueIdentifier>{653e5348-b29e-4d8b-a9a0-b5cf7480991a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapC">
+      <UniqueIdentifier>{4d2b6d97-1de6-4d7e-8201-3936b600532e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapD">
+      <UniqueIdentifier>{ae4ed87f-36f0-4979-a4ef-0108c39308dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapE">
+      <UniqueIdentifier>{bc32e4ff-1c49-4cf7-a127-1e4d02bb6922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapF">
+      <UniqueIdentifier>{a497b7bd-ae74-41aa-8266-58a4161e3f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapG">
+      <UniqueIdentifier>{2ad11530-b23c-42cc-be8f-4fc81e4bd0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapH">
+      <UniqueIdentifier>{d88b470a-d3a7-444a-8c7a-667af79593a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\MapI">
+      <UniqueIdentifier>{ccc38ace-755e-492d-bb66-4334aef5c294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Monster\LongDistanceMonster">
+      <UniqueIdentifier>{a02ee23b-3c4f-4e49-b158-3c4ce8a19bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\UpgradeMap">
+      <UniqueIdentifier>{e6ba0d6c-11e1-4ca1-b59f-e79e6a14fb58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\StartCurseMap">
+      <UniqueIdentifier>{c84cd7a1-6ca0-4ae3-835e-3af4b8755284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\BeforeBossMap">
+      <UniqueIdentifier>{66672977-ff8c-497b-ae3f-ce9ce3911722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\BossMap">
+      <UniqueIdentifier>{5239e779-a5b6-4afe-9c1d-ec3392da08ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\RewardBoxMonoBehaviour">
+      <UniqueIdentifier>{0ed82288-2141-4063-9c38-6ef4d3689005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\MemoryGem">
+      <UniqueIdentifier>{9d0d13f0-734d-4013-b150-94e56a6a1d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Money">
+      <UniqueIdentifier>{37e4059e-060b-4460-853e-2c45f618cc4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\IncreaseHp">
+      <UniqueIdentifier>{fb6afc7e-1ad1-46b7-967d-9a6487317939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Item\ItemBase">
+      <UniqueIdentifier>{bae01590-4540-4b05-b110-72df53b1e7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\StartCutScene">
+      <UniqueIdentifier>{e3851a9e-7259-4c77-995a-0419b2dba8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Monster\MonsterDirection">
+      <UniqueIdentifier>{cc235a37-4889-4a97-93ce-80e019fc6438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Boss\BossBullet">
+      <UniqueIdentifier>{dc7b1c16-a1c6-4a01-aea7-5ffe60b8f95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Boss\BossMapCameraController">
+      <UniqueIdentifier>{e3044c49-5a8f-44cb-b55c-a2084fbdbe89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientComponents\Player\SwordAttack">
+      <UniqueIdentifier>{d58f8c57-85d7-4931-949a-4262266ed0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\EndScene">
+      <UniqueIdentifier>{d0778c14-7264-4f89-9dbd-22ee7574653a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DemoScene.h">
+      <Filter>Scenes\DemoScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Pch</Filter>
+    </ClInclude>
+    <ClInclude Include="TestController.h">
+      <Filter>ClientComponents\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStateMachine.h">
+      <Filter>ClientComponents\Player\PlayerStateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerState.h">
+      <Filter>ClientComponents\Player\PlayerState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerController.h">
+      <Filter>ClientComponents\Player\PlayerController</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCollider.h">
+      <Filter>ClientComponents\Player\PlayerCollider</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterState.h">
+      <Filter>ClientComponents\Monster\MonsterState</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponBase.h">
+      <Filter>ClientComponents\Weapon\WeaponBase</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWeapon.h">
+      <Filter>ClientComponents\Weapon\DefaultWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>GameManager\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCamera.h">
+      <Filter>ClientComponents\Player\PlayerCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="AltarState.h">
+      <Filter>ClientComponents\Altar\State</Filter>
+    </ClInclude>
+    <ClInclude Include="AltarMonoBehaviour.h">
+      <Filter>ClientComponents\Altar\MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="TrapState.h">
+      <Filter>ClientComponents\Trap</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Scenes\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObstacleState.h">
+      <Filter>ClientComponents\Obstacle</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Scenes\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>ClientComponents\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="InventoryUI.h">
+      <Filter>ClientComponents\Item\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugComponent.h">
+      <Filter>ClientComponents\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectTemplate.h">
+      <Filter>Scenes\GameObjectTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterMonoBehaviour.h">
+      <Filter>ClientComponents\Monster\MonsterMonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.h">
+      <Filter>ClientComponents\SceneController</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree.h">
+      <Filter>Utils\BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTree.h">
+      <Filter>ClientComponents\Boss\BossTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMonoBehaviour.h">
+      <Filter>ClientComponents\Boss\BossMonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBossController.h">
+      <Filter>ClientComponents\Boss\TestBossController</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMonoBehaviour.h">
+      <Filter>ClientComponents\Player\PlayerMonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterAttack.h">
+      <Filter>ClientComponents\Monster\MonsterAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponMonoBehaviour.h">
+      <Filter>ClientComponents\Weapon\WeaponMonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAttackMonoBehaviour.h">
+      <Filter>ClientComponents\Boss\BossAttackMonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonObjectTemplate.h">
+      <Filter>Utils\JsonObjTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTestController.h">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineManager.h">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngineTestScene.h">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstScene.h">
+      <Filter>Scenes\FirstScene</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Scenes\StartScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Entrance.h">
+      <Filter>ClientComponents\Entrance</Filter>
+    </ClInclude>
+    <ClInclude Include="MapA.h">
+      <Filter>Scenes\MapA</Filter>
+    </ClInclude>
+    <ClInclude Include="MapB.h">
+      <Filter>Scenes\MapB</Filter>
+    </ClInclude>
+    <ClInclude Include="MapC.h">
+      <Filter>Scenes\MapC</Filter>
+    </ClInclude>
+    <ClInclude Include="MapD.h">
+      <Filter>Scenes\MapD</Filter>
+    </ClInclude>
+    <ClInclude Include="MapE.h">
+      <Filter>Scenes\MapE</Filter>
+    </ClInclude>
+    <ClInclude Include="InGameUI.h">
+      <Filter>ClientComponents\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapF.h">
+      <Filter>Scenes\MapF</Filter>
+    </ClInclude>
+    <ClInclude Include="MapG.h">
+      <Filter>Scenes\MapG</Filter>
+    </ClInclude>
+    <ClInclude Include="MapH.h">
+      <Filter>Scenes\MapH</Filter>
+    </ClInclude>
+    <ClInclude Include="LongRangeMonsterState.h">
+      <Filter>ClientComponents\Monster\LongDistanceMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="MapI.h">
+      <Filter>Scenes\MapI</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeMap.h">
+      <Filter>Scenes\UpgradeMap</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCurseMap.h">
+      <Filter>Scenes\StartCurseMap</Filter>
+    </ClInclude>
+    <ClInclude Include="BeforeBossMap.h">
+      <Filter>Scenes\BeforeBossMap</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMap.h">
+      <Filter>Scenes\BossMap</Filter>
+    </ClInclude>
+    <ClInclude Include="UITestScene.h">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="RewardBoxMonoBehaviour.h">
+      <Filter>ClientComponents\RewardBoxMonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryGem.h">
+      <Filter>ClientComponents\MemoryGem</Filter>
+    </ClInclude>
+    <ClInclude Include="Money.h">
+      <Filter>ClientComponents\Money</Filter>
+    </ClInclude>
+    <ClInclude Include="IncreaseHp.h">
+      <Filter>ClientComponents\IncreaseHp</Filter>
+    </ClInclude>
+    <ClInclude Include="AltarScreen.h">
+      <Filter>ClientComponents\Altar\State</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingUI.h">
+      <Filter>ClientComponents\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StartCutScene.h">
+      <Filter>Scenes\StartCutScene</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponAltarState.h">
+      <Filter>ClientComponents\Altar\State</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponAltarMonoBehaviour.h">
+      <Filter>ClientComponents\Altar\MonoBehaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogUI.h">
+      <Filter>ClientComponents\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDirection.h">
+      <Filter>ClientComponents\Monster\MonsterDirection</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBullet.h">
+      <Filter>ClientComponents\Boss\BossBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMapCameraController.h">
+      <Filter>ClientComponents\Boss\BossMapCameraController</Filter>
+    </ClInclude>
+    <ClInclude Include="SwordAttack.h">
+      <Filter>ClientComponents\Player\SwordAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialUI.h" />
+    <ClInclude Include="EndingScene.h">
+      <Filter>Scenes\EndScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HeraclesClient.cpp">
+      <Filter>ClientMain</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoScene.cpp">
+      <Filter>Scenes\DemoScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Pch</Filter>
+    </ClCompile>
+    <ClCompile Include="TestController.cpp">
+      <Filter>ClientComponents\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStateMachine.cpp">
+      <Filter>ClientComponents\Player\PlayerStateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerState.cpp">
+      <Filter>ClientComponents\Player\PlayerState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerController.cpp">
+      <Filter>ClientComponents\Player\PlayerController</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCollider.cpp">
+      <Filter>ClientComponents\Player\PlayerCollider</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterState.cpp">
+      <Filter>ClientComponents\Monster\MonsterState</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponBase.cpp">
+      <Filter>ClientComponents\Weapon\WeaponBase</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWeapon.cpp">
+      <Filter>ClientComponents\Weapon\DefaultWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>GameManager\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCamera.cpp">
+      <Filter>ClientComponents\Player\PlayerCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="AltarState.cpp">
+      <Filter>ClientComponents\Altar\State</Filter>
+    </ClCompile>
+    <ClCompile Include="AltarMonoBehaviour.cpp">
+      <Filter>ClientComponents\Altar\MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="TrapState.cpp">
+      <Filter>ClientComponents\Trap</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Scenes\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObstacleState.cpp">
+      <Filter>ClientComponents\Obstacle</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Scenes\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>ClientComponents\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InventoryUI.cpp">
+      <Filter>ClientComponents\Item\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugComponent.cpp">
+      <Filter>ClientComponents\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectTemplate.cpp">
+      <Filter>Scenes\GameObjectTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterMonoBehaviour.cpp">
+      <Filter>ClientComponents\Monster\MonsterMonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneController.cpp">
+      <Filter>ClientComponents\SceneController</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourTree.cpp">
+      <Filter>Utils\BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTree.cpp">
+      <Filter>ClientComponents\Boss\BossTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMonoBehaviour.cpp">
+      <Filter>ClientComponents\Boss\BossMonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBossController.cpp">
+      <Filter>ClientComponents\Boss\TestBossController</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMonoBehaviour.cpp">
+      <Filter>ClientComponents\Player\PlayerMonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterAttack.cpp">
+      <Filter>ClientComponents\Monster\MonsterAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponMonoBehaviour.cpp">
+      <Filter>ClientComponents\Weapon\WeaponMonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAttackMonoBehaviour.cpp">
+      <Filter>ClientComponents\Boss\BossAttackMonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonObjectTemplate.cpp">
+      <Filter>Utils\JsonObjTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTestController.cpp">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineManager.cpp">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngineTestScene.cpp">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstScene.cpp">
+      <Filter>Scenes\FirstScene</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Scenes\StartScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Entrance.cpp">
+      <Filter>ClientComponents\Entrance</Filter>
+    </ClCompile>
+    <ClCompile Include="MapA.cpp">
+      <Filter>Scenes\MapA</Filter>
+    </ClCompile>
+    <ClCompile Include="MapB.cpp">
+      <Filter>Scenes\MapB</Filter>
+    </ClCompile>
+    <ClCompile Include="MapC.cpp">
+      <Filter>Scenes\MapC</Filter>
+    </ClCompile>
+    <ClCompile Include="MapD.cpp">
+      <Filter>Scenes\MapD</Filter>
+    </ClCompile>
+    <ClCompile Include="MapE.cpp">
+      <Filter>Scenes\MapE</Filter>
+    </ClCompile>
+    <ClCompile Include="InGameUI.cpp">
+      <Filter>ClientComponents\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapF.cpp">
+      <Filter>Scenes\MapF</Filter>
+    </ClCompile>
+    <ClCompile Include="MapG.cpp">
+      <Filter>Scenes\MapG</Filter>
+    </ClCompile>
+    <ClCompile Include="MapH.cpp">
+      <Filter>Scenes\MapH</Filter>
+    </ClCompile>
+    <ClCompile Include="MapI.cpp">
+      <Filter>Scenes\MapI</Filter>
+    </ClCompile>
+    <ClCompile Include="LongRangeMonsterState.cpp">
+      <Filter>ClientComponents\Monster\LongDistanceMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeMap.cpp">
+      <Filter>Scenes\UpgradeMap</Filter>
+    </ClCompile>
+    <ClCompile Include="StartCurseMap.cpp">
+      <Filter>Scenes\StartCurseMap</Filter>
+    </ClCompile>
+    <ClCompile Include="BeforeBossMap.cpp">
+      <Filter>Scenes\BeforeBossMap</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMap.cpp">
+      <Filter>Scenes\BossMap</Filter>
+    </ClCompile>
+    <ClCompile Include="UITestScene.cpp">
+      <Filter>Scenes\GameEngineTestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="RewardBoxMonoBehaviour.cpp">
+      <Filter>ClientComponents\RewardBoxMonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryGem.cpp">
+      <Filter>ClientComponents\MemoryGem</Filter>
+    </ClCompile>
+    <ClCompile Include="Money.cpp">
+      <Filter>ClientComponents\Money</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreaseHp.cpp">
+      <Filter>ClientComponents\IncreaseHp</Filter>
+    </ClCompile>
+    <ClCompile Include="AltarScreen.cpp">
+      <Filter>ClientComponents\Altar\State</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingUI.cpp">
+      <Filter>ClientComponents\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StartCutScene.cpp">
+      <Filter>Scenes\StartCutScene</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponAltarState.cpp">
+      <Filter>ClientComponents\Altar\State</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponAltarMonoBehaviour.cpp">
+      <Filter>ClientComponents\Altar\MonoBehaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogUI.cpp">
+      <Filter>ClientComponents\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterDirection.cpp">
+      <Filter>ClientComponents\Monster\MonsterDirection</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBullet.cpp">
+      <Filter>ClientComponents\Boss\BossBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMapCameraController.cpp">
+      <Filter>ClientComponents\Boss\BossMapCameraController</Filter>
+    </ClCompile>
+    <ClCompile Include="SwordAttack.cpp">
+      <Filter>ClientComponents\Player\SwordAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialUI.cpp" />
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>Scenes\EndScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

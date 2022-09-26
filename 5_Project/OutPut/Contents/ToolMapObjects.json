@@ -1,0 +1,116 @@
+﻿[
+  {
+    "ID": 10101,
+    "ObjectName": "Floor_8_16",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Floor_8_16",
+      "Resources/Model/Floor_8_16.ase"
+    ]
+  },
+  {
+    "ID": 10102,
+    "ObjectName": "Floor_16_16",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Floor_16_16",
+      "Resources/Model/Floor_16_16.ase"
+    ]
+  },
+  {
+    "ID": 10201,
+    "ObjectName": "Pot1",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Pot1", "Resources/Model/Pot1.ase" ]
+  },
+  {
+    "ID": 10202,
+    "ObjectName": "Pot2",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Pot2", "Resources/Model/Pot2.ase" ]
+  },
+  {
+    "ID": 10203,
+    "ObjectName": "BrokenPot",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "BrokenPot",
+      "Resources/Model/Pot_Broken.ase"
+    ]
+  },
+  {
+    "ID": 10301,
+    "ObjectName": "HPTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "HPBox",
+      "Resources/Model/HPTreasureBox_OpenAnimation.ase"
+    ]
+  },
+  {
+    "ID": 10302,
+    "ObjectName": "WeaponTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "WeaponBox",
+      "Resources/Model/WeaponTreasureBox_OpenAnimation.ase"
+    ]
+  },
+  {
+    "ID": 10303,
+    "ObjectName": "MemoryTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "MemoryBox",
+      "Resources/Model/MemoryTreasureBox_OpenAnimation.ase"
+    ]
+  },
+  {
+    "ID": 20201,
+    "ObjectName": "Altar",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Altar",
+      "Resources/Model/Altar.ase"
+    ]
+  },
+  {
+    "ID": 20202,
+    "ObjectName": "ObsPillar",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Pillar",
+      "Resources/Model/Pillar.ase"
+    ]
+  },
+  {
+    "ID": 20203,
+    "ObjectName": "Wall_20_20",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Wall_20_20",
+      "Resources/Model/Wall_20_20.ase"
+    ]
+  },
+  {
+    "ID": 20204,
+    "ObjectName": "Heracles",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "Heracles",
+      "Resources/Model/heracles_idle.fbx"
+    ]
+  }
+]

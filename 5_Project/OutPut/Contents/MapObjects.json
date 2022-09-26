@@ -1,0 +1,210 @@
+﻿[
+  {
+    "ID": 10101,
+    "ObjectName": "Floor",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Floor",
+      "Resources/Model/Floor.ase"
+    ]
+  },
+  {
+    "ID": 10201,
+    "ObjectName": "Pot1",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Pot1", "Resources/Model/Pot1.ase" ]
+  },
+  {
+    "ID": 10202,
+    "ObjectName": "Pot2",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Pot2", "Resources/Model/Pot2.ase" ]
+  },
+  {
+    "ID": 10203,
+    "ObjectName": "BrokenPot",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "BrokenPot",
+      "Resources/Model/Pot_Broken.ase"
+    ]
+  },
+  {
+    "ID": 10301,
+    "ObjectName": "HPTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "HPBox",
+      "Resources/Model/HPTreasureBox_OpenAnimation.ase"
+    ],
+    "Animation": [
+      [
+        "BoxOpen",
+        "Resources/Model/HPTreasureBox_OpenAnimation.ase"
+      ]
+    ]
+  },
+  {
+    "ID": 10302,
+    "ObjectName": "WeaponTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "WeaponBox",
+      "Resources/Model/WeaponTreasureBox_OpenAnimation.ase"
+    ],
+    "Animation": [
+      [
+        "BoxOpen",
+        "Resources/Model/WeaponTreasureBox_OpenAnimation.ase"
+      ]
+    ]
+  },
+  {
+    "ID": 10303,
+    "ObjectName": "MemoryTreasureBox1",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "MemoryBox",
+      "Resources/Model/MemoryTreasureBox_OpenAnimation.ase"
+    ],
+    "Animation": [
+      [
+        "BoxOpen",
+        "Resources/Model/MemoryTreasureBox_OpenAnimation.ase"
+      ]
+    ]
+  },
+  {
+    "ID": 20101,
+    "ObjectName": "Player",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "Paladin",
+      "Resources/Model/Paladin_idle.ase"
+    ],
+    "Animation": [
+      [
+        "Idle",
+        "Resources/Model/Paladin_idle.ase"
+      ],
+      [
+        "Run",
+        "Resources/Model/Paladin_run.ase"
+      ],
+      [
+        "Slash",
+        "Resources/Model/Paladin_slash.ASE"
+      ]
+    ],
+    "PlayerCollider": [ 3.0, 3.0, 3.0 ]
+  },
+  {
+    "ID": 20102,
+    "ObjectName": "PlayerWeapon",
+    "Renderable": false,
+    "HasAnim": false
+  },
+  {
+    "ID": 20201,
+    "ObjectName": "Altar",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Altar",
+      "Resources/Model/Altar.ase"
+    ]
+  },
+  {
+    "ID": 20202,
+    "ObjectName": "ObsPillar",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [
+      "Pillar",
+      "Resources/Model/Pillar.ase"
+    ]
+  },
+  {
+    "ID": 20203,
+    "ObjectName": "ObsWall",
+    "Renderable": true,
+    "HasAnim": false,
+    "MeshRenderer": [ "Wall", "Resources/Model/Wall.ase" ]
+  },
+  {
+    "ID": 20301,
+    "ObjectName": "Monster",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "Ely",
+      "Resources/Model/Ely_idle.ase"
+    ],
+    "Animation": [
+      [
+        "Ely_Idle",
+        "Resources/Model/Ely_idle.ase"
+      ],
+      [
+        "Ely_Run",
+        "Resources/Model/Ely_run.ase"
+      ],
+      [
+        "Ely_Attack",
+        "Resources/Model/Ely_attack.ase"
+      ]
+    ]
+  },
+  {
+    "ID": 20302,
+    "ObjectName": "MonsterAttack",
+    "Renderable": false,
+    "HasAnim": false
+  },
+  {
+    "ID": 20303,
+    "ObjectName": "Boss",
+    "Renderable": true,
+    "HasAnim": true,
+    "SkinnedRenderer": [
+      "Pig",
+      "Resources/Model/babypig_idle_6x.ASE"
+    ],
+    "Animation": [
+      [
+        "PigIdle",
+        "Resources/Model/babypig_idle_6x.ASE"
+      ],
+      [
+        "PigWalk",
+        "Resources/Model/babypig_walk_6x.ASE"
+      ]
+    ]
+  },
+  {
+    "ID": 20304,
+    "ObjectName": "BossAttack",
+    "Renderable": false,
+    "HasAnim": false
+  },
+  {
+    "ID": 20401,
+    "ObjectName": "MainCamera",
+    "Renderable": false,
+    "HasAnim": false
+  },
+  {
+    "ID": 20402,
+    "ObjectName": "SceneController",
+    "Renderable": false,
+    "HasAnim": false
+  }
+]

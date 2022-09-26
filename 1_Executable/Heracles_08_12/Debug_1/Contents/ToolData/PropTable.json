@@ -1,0 +1,52 @@
+﻿[
+  {
+    "ID": 101,
+    "PropType": "Wall",
+    "PropName": "벽_세로"
+  },
+  {
+    "ID": 102,
+    "PropType": "Wall",
+    "PropName": "벽_가로"
+  },
+  {
+    "ID": 103,
+    "PropType": "Wall",
+    "PropName": "벽_좌상단"
+  },
+  {
+    "ID": 104,
+    "PropType": "Wall",
+    "PropName": "벽_우상단"
+  },
+  {
+    "ID": 105,
+    "PropType": "Wall",
+    "PropName": "벽_좌하단"
+  },
+  {
+    "ID": 106,
+    "PropType": "Wall",
+    "PropName": "벽_우하단"
+  },
+  {
+    "ID": 107,
+    "PropType": "Wall",
+    "PropName": "벽_세로우측"
+  },
+  {
+    "ID": 108,
+    "PropType": "Wall",
+    "PropName": "벽_세로좌측"
+  },
+  {
+    "ID": 109,
+    "PropType": "Wall",
+    "PropName": "벽_가로상단"
+  },
+  {
+    "ID": 110,
+    "PropType": "Wall",
+    "PropName": "벽_가로하단"
+  }
+]

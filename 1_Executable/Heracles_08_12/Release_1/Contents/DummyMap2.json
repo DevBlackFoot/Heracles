@@ -1,0 +1,269 @@
+﻿[
+  {
+    "ID": 0,
+    "ObjectID": 10101,
+    "GameObjectName": "Pillar(0)",
+    "Transform": [
+      10.0,
+      0.0,
+      10.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"BOX\"",
+    "BoxCollider": [ 1.0, 1.0, 1.0 ]
+  },
+  {
+    "ID": 1,
+    "ObjectID": 10101,
+    "GameObjectName": "Pillar(1)",
+    "Transform": [
+      10.0,
+      0.0,
+      20.0,
+      45.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"BOX\"",
+    "BoxCollider": [ 1.0, 1.0, 1.0 ]
+  },
+  {
+    "ID": 2,
+    "ObjectID": 10101,
+    "GameObjectName": "Pillar(2)",
+    "Transform": [
+      10.0,
+      0.0,
+      30.0,
+      0.0,
+      45.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"BOX\"",
+    "BoxCollider": [ 1.0, 1.0, 1.0 ]
+  },
+  {
+    "ID": 3,
+    "ObjectID": 10101,
+    "GameObjectName": "Pillar(3)",
+    "Transform": [
+      10.0,
+      0.0,
+      40.0,
+      0.0,
+      0.0,
+      45.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"BOX\"",
+    "BoxCollider": [ 1.0, 1.0, 1.0 ]
+  },
+  {
+    "ID": 4,
+    "ObjectID": 10101,
+    "GameObjectName": "Pillar(4)",
+    "Transform": [
+      10.0,
+      0.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"BOX\"",
+    "BoxCollider": [ 1.0, 1.0, 1.0 ]
+  },
+  {
+    "ID": 5,
+    "ObjectID": 10101,
+    "GameObjectName": "Pillar(5)",
+    "Transform": [
+      10.0,
+      0.0,
+      60.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      2.0
+    ],
+    "Collider": "\"BOX\"",
+    "BoxCollider": [ 1.0, 1.0, 1.0 ]
+  },
+  {
+    "ID": 6,
+    "ObjectID": 10201,
+    "GameObjectName": "Pot1",
+    "Transform": [
+      25.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"NONE\""
+  },
+  {
+    "ID": 7,
+    "ObjectID": 10202,
+    "GameObjectName": "Pot2",
+    "Transform": [
+      35.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"NONE\""
+  },
+  {
+    "ID": 8,
+    "ObjectID": 10203,
+    "GameObjectName": "BrokenPot",
+    "Transform": [
+      45.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"NONE\""
+  },
+  {
+    "ID": 9,
+    "ObjectID": 10301,
+    "GameObjectName": "HPTreasureBox(1)",
+    "Transform": [
+      0.0,
+      0.0,
+      -10.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"SPHERE\"",
+    "SphereCollider": 2.0
+  },
+  {
+    "ID": 10,
+    "ObjectID": 10301,
+    "GameObjectName": "HPTreasureBox(2)",
+    "Transform": [
+      0.0,
+      0.0,
+      -20.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"SPHERE\"",
+    "SphereCollider": 2.0
+  },
+  {
+    "ID": 11,
+    "ObjectID": 10302,
+    "GameObjectName": "WeaponTreasureBox(1)",
+    "Transform": [
+      10.0,
+      0.0,
+      -20.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"SPHERE\"",
+    "SphereCollider": 2.0
+  },
+  {
+    "ID": 12,
+    "ObjectID": 10303,
+    "GameObjectName": "MemoryTreasureBox(1)",
+    "Transform": [
+      0.0,
+      10.0,
+      -20.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"SPHERE\"",
+    "SphereCollider": 2.0
+  },
+  {
+    "ID": 13,
+    "ObjectID": 10303,
+    "GameObjectName": "MomoryTreasureBox(2)",
+    "Transform": [
+      10.0,
+      -10.0,
+      -20.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      2.0,
+      2.0
+    ],
+    "Collider": "\"SPHERE\"",
+    "SphereCollider": 2.0
+  },
+  {
+    "ID": 14,
+    "ObjectID": 10303,
+    "GameObjectName": "MomoryTreasureBox(3)",
+    "Transform": [
+      10.0,
+      -20.0,
+      -20.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Collider": "\"SPHERE\"",
+    "SphereCollider": 2.0
+  }
+]

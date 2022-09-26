@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AlmondTools_Client": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}
